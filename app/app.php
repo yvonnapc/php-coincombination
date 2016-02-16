@@ -10,5 +10,11 @@
       return $app['twig']->render('form.html.twig');
     });
 
+    $app->get('/result', function() use($app){
+      $new_CoinCombination = new CoinCombination;
+      $results_coins = $new_CoinCombination->makeCombination($_GET['amount']);
+      return $app['twig']->render(('result.html.twig'), array('results' => $results_coins));
+    });
+
     return $app;
  ?>

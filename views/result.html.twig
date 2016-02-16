@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+        <title>Coin Combo</title>
+    </head>
+    <body>
+        <div class='container'>
+            <h1>Here is the least amount of coins you need for your entered amount:</h1>
+
+            <ul>
+                <li>Quarters: {{ results["quarters"] }}</li>
+                <li>Dimes: {{ results["dimes"] }}</li>
+                <li>Nickels: {{ results["nickels"] }}</li>
+                <li>Pennies: {{ results["pennies"] }}</li>
+            </ul>
+            <p><a href="/">Try Again</a></p>
+        </div>
+    </body>
+</html>

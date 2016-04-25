@@ -6,7 +6,7 @@
 
 ## Description
 
-This application serves as a platform for the user to fill a form with a numerical amount. The input is analyzed and presented back to the user with results of the smallest amount of coins needed to make that number in change. 
+This application serves as a platform for the user to fill a form with a numerical amount. The input is analyzed and presented back to the user with results of the smallest amount of coins needed to make that number in change. This app was exercise in learning to write BDD tests for our apps.
 
 ## Setup/Installation Requirements
 

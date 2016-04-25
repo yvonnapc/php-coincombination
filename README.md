@@ -31,12 +31,12 @@ If you have any issues, questions, ideas, or concerns contact me at yvonnap.cont
 
 ## Technologies Used
 
-• Bootstrap
-• PHP
-• GIT
-• Twig
-• Silex
-• Composer
+• Bootstrap<br>
+• PHP<br>
+• GIT<br>
+• Twig<br>
+• Silex<br>
+• Composer<br>
 
 ### License
 
